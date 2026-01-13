@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <!-- <ItemGroup>
+    <ReqnrollFeatureFile Remove="E2E.UI.Tests\Features\Login.feature" />
+    <ReqnrollFeatureFile Remove="E2E.UI.Tests\Features\Registration.feature" />
+  </ItemGroup> -->
+
+  <ItemGroup>
+    <PackageReference Include="dotenv.net" Version="4.0.0" />
+    <PackageReference Include="Gherkin" Version="37.0.1" />
+    <PackageReference Include="Microsoft.Playwright.MSTest" Version="1.57.0" />
+	<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.10.0-preview-24080-01" />
+	<PackageReference Include="MSTest.TestFramework" Version="3.4.3" />
+	<PackageReference Include="MSTest.TestAdapter" Version="3.4.3" />
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Reqnroll" Version="3.3.1" />
+    <PackageReference Include="Reqnroll.MSTest" Version="3.3.1" />
+    <PackageReference Include="Reqnroll.Tools.MsBuild.Generation" Version="3.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="E2E.Shared\" />
+    <Folder Include="E2E.Shared\Configuration\" />
+    <Folder Include="E2E.Shared\Hooks\" />
+    <Folder Include="E2E.Shared\Pages\" />
+    <Folder Include="E2E.Shared\StepDefinitions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update=".env">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

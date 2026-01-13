@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_automation_czechitas", "test_automation_czechitas\test_automation_czechitas.csproj", "{B8EADBC7-2740-0EF8-1F5B-434F3F17710D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8EADBC7-2740-0EF8-1F5B-434F3F17710D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8EADBC7-2740-0EF8-1F5B-434F3F17710D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8EADBC7-2740-0EF8-1F5B-434F3F17710D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8EADBC7-2740-0EF8-1F5B-434F3F17710D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5218A27-70D1-4C37-B9FD-AA015E3EF04C}
+	EndGlobalSection
+EndGlobal
