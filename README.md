@@ -37,7 +37,7 @@ dotnet test
 ```
 
 ## Project Structure
-
+```
 test_automation_czechitas/
 ├── E2E.UI.Tests/
 │   └── Features/              # Gherkin feature files
@@ -55,7 +55,7 @@ test_automation_czechitas/
 ├── .env                       # Environment variables (not in git)
 ├── .env.example               # Template for .env
 └── reqnroll.json             # Reqnroll configuration
-
+```
 ## What's Tested
 
 - User registration (success and validation errors)
